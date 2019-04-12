@@ -1,4 +1,4 @@
-ROM openshift/base-centos7
+FROM openshift/base-centos7
 
 ENV MINIO_ACCESS_KEY=minio
 ENV MINIO_SECRET_KEY=minio123
